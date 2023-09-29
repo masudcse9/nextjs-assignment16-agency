@@ -24,7 +24,7 @@ const Testimonial = async () => {
           <div className="flex flex-wrap">
             {data.map((item, index) => {
               return (
-                <div className="w-full md:w-1/2 py-5 md:px-5">
+                <div key={index} className="w-full md:w-1/2 py-5 md:px-5">
                   <div
                     className="px-6 py-10 bg-white shadow rounded hover-up-5 wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
                     data-wow-delay=".1s"

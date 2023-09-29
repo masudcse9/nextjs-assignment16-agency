@@ -31,7 +31,7 @@ const AllService = async () => {
           <div className="flex flex-wrap -mx-4 mb-4">
             {data.map((item, index) => {
               return (
-                <div className="relative mb-4 w-full md:w-1/2 lg:w-1/3 px-4">
+                <div key={index} className="relative mb-4 w-full md:w-1/2 lg:w-1/3 px-4">
                   <div className="relative h-80 mb-5 mx-auto rounded-lg">
                     <img
                       className="h-80 w-full relative h-full rounded-lg object-cover"

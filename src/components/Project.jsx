@@ -31,7 +31,7 @@ const Project = async () => {
           <div className="flex flex-wrap -mx-4 mb-4">
             {data.map((item, index) => {
               return (
-                <div className="mb-8 w-full md:w-1/2 lg:w-1/3 px-4">
+                <div key={index} className="mb-8 w-full md:w-1/2 lg:w-1/3 px-4">
                   <div className="bg-white rounded">
                     <img
                       className="rounded-t object-cover h-128"
